@@ -29,7 +29,7 @@ This project demonstrates how to control multiple LEDs using an SN74HC595 shift 
 |----|-|-------------|- |-----|-|
 |Q_b |1|             |16|Vcc  ||
 |Q_c |2|             |15|Q_a  ||
-|Q_d |3|             |14|SER  |*Data Serial* / *Serial Data* : Responsible for receiving the serial input data that gets shifted into the register|
+|Q_d |3|             |14|DS/SER  |*Data Serial* / *Serial Data* : Responsible for receiving the serial input data that gets shifted into the register|
 |Q_e |4|             |13|OE   | *Output Enable* : Active-low, connect to GND to enable outputs|
 |Q_f |5|             |12|SHCP (RCLK) | *Shift Register Clock* : Advances the shift register on the rising edgoe of the clock |
 |Q_g |6|             |11|STCP (SRCLK)| *Register Clock* : Latches the shifted data into the storage register, transferring it to the outputs|
